@@ -1,3 +1,3 @@
 function run_script() {
-    show_message(new Integer(3.14));
+    popup(new Integer(3.14));
 }

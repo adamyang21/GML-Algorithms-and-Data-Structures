@@ -19,6 +19,9 @@
     {"name":"data_structures","order":2,"path":"folders/Scripts/classes/data_structures.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"Iterable","order":2,"path":"scripts/Iterable/Iterable.yy",},
+    {"name":"scr_functions","order":3,"path":"scripts/scr_functions/scr_functions.yy",},
     {"name":"Float","order":1,"path":"scripts/Float/Float.yy",},
+    {"name":"scr_essential_functions","order":3,"path":"scripts/scr_essential_functions/scr_essential_functions.yy",},
   ],
 }

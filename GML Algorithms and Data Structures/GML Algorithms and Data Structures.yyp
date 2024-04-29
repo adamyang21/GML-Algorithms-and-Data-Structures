@@ -36,10 +36,13 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"Iterable","path":"scripts/Iterable/Iterable.yy",},},
     {"id":{"name":"Integer","path":"scripts/Integer/Integer.yy",},},
     {"id":{"name":"scr_run_script","path":"scripts/scr_run_script/scr_run_script.yy",},},
     {"id":{"name":"obj_runner","path":"objects/obj_runner/obj_runner.yy",},},
+    {"id":{"name":"scr_functions","path":"scripts/scr_functions/scr_functions.yy",},},
     {"id":{"name":"Float","path":"scripts/Float/Float.yy",},},
+    {"id":{"name":"scr_essential_functions","path":"scripts/scr_essential_functions/scr_essential_functions.yy",},},
     {"id":{"name":"Object","path":"scripts/Object/Object.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
