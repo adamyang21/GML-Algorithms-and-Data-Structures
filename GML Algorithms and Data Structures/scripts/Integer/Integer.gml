@@ -15,7 +15,7 @@ Methods:
 Adam Yang
 */
 
-function Integer(_value): Object() constructor {
+function Integer(_value) : Object() constructor {
     //Attributes
     value = 0; //Stored integer value
 
@@ -40,8 +40,9 @@ function Integer(_value): Object() constructor {
 
 
     //Methods
+    
+    //get() -> number
     /*
-    get() -> number
     Returns the number used for integer representation.
 
     Returns:
@@ -57,8 +58,8 @@ function Integer(_value): Object() constructor {
     }
 
 
+    //copy() -> Integer
     /*
-    copy() -> Integer
     Creates a copy of the integer and returns it.
 
     Returns:
@@ -74,8 +75,8 @@ function Integer(_value): Object() constructor {
     }
 
 
+    //to_string() -> string
     /*
-    to_string() -> string
     Creates a printable string version of the integer.
 
     Returns:
@@ -91,8 +92,8 @@ function Integer(_value): Object() constructor {
     }
 
 
+    //to_float() -> Float
     /*
-    to_float() -> Float
     Up-casts the integer to a float.
 
     Returns:

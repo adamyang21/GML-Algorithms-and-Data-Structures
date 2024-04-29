@@ -15,7 +15,7 @@ Methods:
 Adam Yang
 */
 
-function Float(_value): Object() constructor {
+function Float(_value) : Object() constructor {
     //Attributes
     value = 0; //Stored floating point value
     
@@ -40,8 +40,9 @@ function Float(_value): Object() constructor {
 
 
     //Methods
+
+    //get() -> number
     /*
-    get() -> number
     Returns the number used for floating point representation.
 
     Returns:
@@ -56,8 +57,8 @@ function Float(_value): Object() constructor {
     }
 
 
+    //copy() -> Float
     /*
-    copy() -> Float
     Creates a copy of the float and returns it.
 
     Returns:
@@ -73,8 +74,8 @@ function Float(_value): Object() constructor {
     }
 
 
+    //to_string() -> string
     /*
-    to_string() -> string
     Creates a printable string version of the f,oat.
 
     Returns:
@@ -90,8 +91,8 @@ function Float(_value): Object() constructor {
     }
 
 
+    //to_integer() -> Integer
     /*
-    to_integer() -> Integer
     Down-casts the float to an integer.
 
     Returns:

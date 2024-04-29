@@ -12,15 +12,16 @@ Methods:
 Adam Yang
 */
 
-function Iterable(): Object() constructor {
+function Iterable() : Object() constructor {
     //Attributes
     length = 0; //Length of the iterable
 
 
 
     //Methods
+
+    //get_item(_index: number) -> T
     /*
-    get_item(_index: number) -> T
     Gets the item stored at an index in an iterable object.
 
     Parameters:
@@ -32,8 +33,8 @@ function Iterable(): Object() constructor {
     function get_item(_index) {abstract();}
 
 
+    //contains(_item: T) -> bool
     /*
-    contains(_item: T) -> bool
     Checks if the iterable object contains the specified item.
 
     Parameters:
@@ -45,8 +46,8 @@ function Iterable(): Object() constructor {
     function contains(_item) {abstract();}
 
 
+    //get_item_index(_item: T) -> number
     /*
-    get_item_index(_item: T) -> number
     Searches through the iterable object for the specified item and returns its index if found.
 
     Parameters:
@@ -58,8 +59,8 @@ function Iterable(): Object() constructor {
     function get_item_index(_item) {abstract();}
 
 
+    //get_length() -> number
     /*
-    get_length() -> number
     Gets the length of the iterable object.
 
     Returns:

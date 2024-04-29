@@ -13,8 +13,9 @@ Adam Yang
 
 function Object() constructor {
     //Methods
+
+    //get() -> T
     /*
-    get() -> T
     Accessor/getter for stored representations in objects.
 
     Returns:
@@ -23,8 +24,8 @@ function Object() constructor {
     function get() {abstract();}
 
 
+    //copy() -> Object
     /*
-    copy() -> Object
     Creates a copy of the object and returns it.
 
     Returns:
@@ -33,8 +34,8 @@ function Object() constructor {
     function copy() {abstract();}
 
 
+    //to_string() -> string
     /*
-    to_string() -> string
     Creates a printable string version of the object.
 
     Returns:

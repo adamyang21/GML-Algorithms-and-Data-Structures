@@ -45,6 +45,7 @@
     {"id":{"name":"Float","path":"scripts/Float/Float.yy",},},
     {"id":{"name":"scr_essential_functions","path":"scripts/scr_essential_functions/scr_essential_functions.yy",},},
     {"id":{"name":"Object","path":"scripts/Object/Object.yy",},},
+    {"id":{"name":"ArrayADT","path":"scripts/ArrayADT/ArrayADT.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
