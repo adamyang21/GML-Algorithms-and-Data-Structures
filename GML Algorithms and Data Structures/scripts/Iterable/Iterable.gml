@@ -4,7 +4,7 @@ Base class for all iterable objects.
 Sets up methods which are present in all iterable objects.
 
 Methods:
-- get_item(_index) -> T (abstract)
+- get_item(_index: number) -> T (abstract)
 - contains(_item: T) -> bool (abstract)
 - get_item_index(_item: T) -> number (abstract)
 - get_length() -> number
@@ -20,7 +20,7 @@ function Iterable(): Object() constructor {
 
     //Methods
     /*
-    get_item(_index) -> T
+    get_item(_index: number) -> T
     Gets the item stored at an index in an iterable object.
 
     Parameters:
