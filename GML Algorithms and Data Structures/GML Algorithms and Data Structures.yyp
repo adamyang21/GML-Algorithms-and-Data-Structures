@@ -26,6 +26,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"classes","folderPath":"folders/Scripts/classes.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"data_structures","folderPath":"folders/Scripts/classes/data_structures.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -34,7 +36,11 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"Integer","path":"scripts/Integer/Integer.yy",},},
+    {"id":{"name":"scr_run_script","path":"scripts/scr_run_script/scr_run_script.yy",},},
     {"id":{"name":"obj_runner","path":"objects/obj_runner/obj_runner.yy",},},
+    {"id":{"name":"Float","path":"scripts/Float/Float.yy",},},
+    {"id":{"name":"Object","path":"scripts/Object/Object.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
